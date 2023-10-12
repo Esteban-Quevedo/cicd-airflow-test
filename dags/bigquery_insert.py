@@ -12,7 +12,7 @@ GBQ_CONNECTION_ID = "bigquery_default"
 default_args = {
     "owner": owner,
     "depends_on_past": False,
-    "start_date": datetime.datetime(2022, 1, 19),
+    "start_date": datetime.datetime(2022, 1, 18),
     "email": email,
     "email_on_failure": True,
     "email_on_retry": True,
