@@ -16,7 +16,7 @@ default_args = {
     "email": email,
     "email_on_failure": True,
     "email_on_retry": True,
-    "retries": 3,
+    "retries": 4,
     "retry_delay": datetime.timedelta(minutes=1),
     "project_id": project,
 }
